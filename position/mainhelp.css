@@ -1,0 +1,307 @@
+.ramka {
+width: 100%;
+height: 500px;
+border: 3px dotted grey;
+position: relative;
+top: 0px;
+}
+
+.first {
+width: 100px;
+height: 100px;
+background: white;
+outline: 2px solid red;
+position: relative;
+top: 70px;
+left: 50px;
+}
+
+.two {
+width: 100px;
+height: 100px;
+background: white;
+outline: 2px solid #8A2BE2;
+position: relative;
+top: 120px;
+left: 190px;
+}
+
+.three {
+width: 100px;
+height: 100px;
+background: white;
+outline: 2px solid #00FF00;
+position: relative;
+top: 190px;
+left: 350px;
+}
+
+.ramka2 {
+width: 100%;
+height: 800px;
+border: 3px dotted grey;
+position: relative;
+top: 50px;
+}
+
+.first2 {
+width: 100px;
+height: 100px;
+background: #F08080;
+outline: 2px #F08080;
+position: relative;
+top: 120px;
+left: 50px;
+}
+
+.two2 {
+width: 100px;
+height: 100px;
+background: #8A2BE2;
+outline: 2px solid #8A2BE2;
+position: relative;
+top: 85px;
+left: 115px;
+}
+
+.three2 {
+width: 100px;
+height: 100px;
+background: #00FF00;
+outline: 2px solid #00FF00;
+position: relative;
+top: 50px;
+left: 190px;
+}
+
+.ramka3 {
+width: 100%;
+height: 800px;
+border: 3px dotted grey;
+position: relative;
+top: 100px;
+}
+
+.first3 {
+width: 100px;
+height: 100px;
+background: #F08080;
+outline: 2px #F08080;
+position: relative;
+top: 125px;
+left: 55px;
+}
+
+.two3 {
+width: 100px;
+height: 100px;
+background: #8A2BE2;
+outline: 2px solid #8A2BE2;
+position: relative;
+top: 90px;
+left: 120px;
+}
+
+.three3 {
+width: 100px;
+height: 100px;
+background: #00FF00;
+outline: 2px solid #00FF00;
+position: relative;
+top: 50px;
+left: 190px;
+z-index: -50;
+}
+
+
+
+.ramka4 {
+width: 100%;
+height: 800px;
+border: 3px dotted grey;
+position: relative;
+top: 200px;
+}
+
+.kwadrat {
+}
+
+.kwadrat2 {
+}
+
+.zelen {
+width: 90%;
+height: 700px;
+background: #00FF00;
+outline: 2px solid #00FF00;
+position: relative;
+top: 50px;
+left: 80px;
+}
+
+.kwadrat {
+width: 250px;
+height: 250px;
+background: white;
+outline: 2px white;
+position: relative;
+bottom: 500px;
+left: 200px;
+}
+
+.kwadrat2 {
+width: 250px;
+height: 250px;
+background: white;
+outline: 2px white;
+position: relative;
+bottom: 500px;
+left: 1300px;
+}.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+#a {
+  position: relative;
+  border: 3px solid #ED1D47;
+  top: 120px;
+  left: 100px;
+}
+
+#b {
+  position: relative;
+  top: 280px;
+  left: 140px;
+  border: 3px solid #B75DF3;
+}
+
+#c {
+  position: relative;
+  top: 450px;
+  left: 180px;
+  border: 3px solid #21FF7A;
+
+}
+
+#a1 {
+position: absolute;
+ top: 880px;
+ left: 100px;
+
+ background: #ED1D47;
+}
+
+#b1 {
+position: absolute;
+ top: 940px;
+ left: 150px;
+
+ background: #B75DF3;
+}
+
+#c1 {
+position: absolute;
+ top: 1000px;
+ left: 200px;
+ background: #21FF7A;
+}
+
+
+#a2 {
+position: absolute;
+ top: 1360px;
+ left: 100px;
+ background: #ED1D47;
+}
+
+
+#b2 {
+position: absolute;
+ top: 1420px;
+ left: 150px;
+ background: #B75DF3;
+}
+
+#c2 {
+position: absolute;
+ top: 1480px;
+ left: 200px;
+ background: #21FF7A;
+}
+
+#CC1 {
+position: absolute;
+ top: 1840px;
+ width: 1650px;
+ left: 100px;
+ height: 820px;
+ background: #21FF7A;
+
+
+}
+
+
+#AA1 {
+position: absolute;
+ top: 1940px;
+ width: 250px;
+ margin: 0 auto;
+ height: 250px;
+ left: 200px;
+ background: white;
+
+}
+
+
+#BB1 {
+position: absolute;
+ top: 2320px;
+ width: 250px;
+ height: 250px;
+ left: 1400px;
+ background: white;
+
+}
+
+
+.INFO{
+width:100%;
+height: 150px;
+background: #ADFF2F;
+position: relative;
+text-align:center;
+color:white;
+font-size: 40px;
+padding-top: 40px;
+}
+
+
+# INFO2{
+display: inline-block;
+position: relative;
+background: red;
+border: 3px dotted #ADFF2F ;
+width:100%;
+height: 100%;
+}
+
+
+
+
+
+.prokrutka {
+position: absolute;
+top: 2850px;
+width:100%;/*ширина нашего блока */
+height:800px; /* высота нашего блока */
+background: #fff; /* цвет фона, белый */
+border: 3px dotted grey ; /* размер и цвет границы блока */
+overflow: auto; /* свойство для прокрутки по горизонтали. Автоматом, если больше блока */
+
+}
+
+
+
